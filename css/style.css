@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: whitesmoke;
+}
+
+.nav-area{
+    display: grid;
+    width: 100%;
+    height: 60px;
+}
+.brand{
+    color: white;
+    font-weight: bold;  
+    font-size: 31px;
+    margin-right: 100px;
+    margin-top: 11px;
+}
+
+ul{
+    display: flex;
+   
+    justify-content: center;
+    background: rgba(31,32,50,255);
+}
+ul li{
+  
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+ul li:hover{
+    background: transparent;
+}
+
+ul li a{
+    text-decoration: none;
+    margin-left: 40px ;
+    margin-right: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:#666771; 
+}
+.buy1{
+    margin-top: 24px;
+    margin-left: 60px;
+    text-decoration: underline;
+    color: white;
+}
+.nav1{
+    padding-top: 15px;
+}
+.nav1:hover{
+     color: white;
+     cursor: pointer;    
+
+}
+.down-app{
+    background: #1a1b2c;
+    height: 660px;
+    display: block;
+    width: 100%;
+    
+    
+}
+.down-app1{
+    margin-top: 190px;
+    margin-left: 200px;
+    display:block;
+    float: left;
+    color: white;
+    background: #1a1b2c;    
+}
+.down-apph1{
+    font-weight: bold;
+    font-size: 70px;
+}
+.down-para{
+    margin-top: 15px;
+    color: lightgrey; 
+    font-size: 21px;
+}
+.btn1{
+
+    margin-top: 50px;
+    color: black;
+    background: gold;
+    border-color: transparent;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top:  15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+}
+.btn1:hover{
+    cursor: pointer;
+}
+.pointer{
+    margin-left: 20px;
+    font-size: 17px;
+}
+.pointer:hover{
+    cursor: pointer;
+}
+.phone1{
+   float: right;
+   margin-top: 100px;
+   margin-right: 100px;
+  
+}
+.good-company{
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    background: white;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: transparent;
+    
+}
+.good-company-h3{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.good-company-img{
+    margin-left: 130px;
+    margin-top: 30px;
+}
+.how-it-works{
+     width: 90%;
+     background: #f8f8f8;
+}
+.how-it-works h1{
+    font-size: 55px;
+
+    padding-top: 100px;
+    margin-left: 620px;
+    font-weight: bold;
+    display: inline-block;
+    background: linear-gradient(to right, #111111 50%, #1bac88 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.how-it-works-cards{
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 80px;
+    margin-left: 150px;  
+}
+.how-it-works-card1{
+    background: white;
+    position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 250px;
+    height: 400px;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: transparent;
+    background-size: contain;
+    border-radius: 15px;
+    justify-content: center;
+
+}
+
+.how-it-works-card1:hover{
+    background-color:#1e1f33;
+    cursor:crosshair;
+   
+}
+.how-it-works-img{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.how-it-works-p1-cards{
+    margin-left:20px;
+    margin-top: 20px;
+    font-size: 27px;
+    font-weight: bold;
+    color: black;
+
+}
+.how-it-works-p1-cards:hover{
+    color: white;
+    font-weight: bold;
+}
+
+
+.how-it-works-p2-cards{
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.how-it-works-p2-cards:hover{
+    text-decoration-color: white;
+    color: white;
+    font-weight: bold;
+}
+.how-it-works-card1:hover p{
+    color: white;
+      
+}
+.margin1{
+    border-radius: 1px;
+    border-color:#e0e0e0;
+
+}
+.our-features-h1{
+    font-size: 55px;
+    display: inline-block;
+    padding-top: 100px;
+    margin-left: 650px;
+    font-weight: bold;
+    background: linear-gradient(to right, #111111 30%, #1bac88 32%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.our-features-cards{
+    display: flex;
+    width: 90%;
+    margin-left: 130px;
+
+}
+.our-features-card1{
+    border-radius: 15px;
+    border-style:hidden;
+    background-color: white;
+    padding: 40px 40px 40px 40px;
+    margin: 40px 40px 40px 40px;
+}
+.our-features-card1:hover{
+     opacity: 1px; 
+     cursor: crosshair;
+     transform: scaleZ(5);
+}
+.our-features-img{
+    float: left;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 10px;   
+    border-color: transparent; 
+    background: #b8c6db;
+    
+}
+.our-features-p1{
+    float: right;
+    padding-right: 140px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.our-features-p2{
+    float: right;
+    padding-right: 18px;
+}
+.easy-to-use{
+    display: block;
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 200px;
+}
+.easy-to-use-img{
+    float: right;
+    margin-right: 150px;
+}
+.easy-to-use-template-p1{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+.easy-to-use-template-p2{
+   padding-top: 20px;
+   padding-left: 200px;
+   font-size: 18px;
+   font-weight: bold;
+}
+.btn2{
+    margin-left: 200px;
+    border-color: transparent;
+    border-radius: 10px;
+    margin-top: 50px;
+    color: black;
+    background: gold;
+    padding-left: 40px;
+    padding-top:  15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+
+.easy-to-use2{
+    display: block;
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 100px;
+    height: 550px;
+}
+
+.easy-to-use2-img{
+    float: left;
+    margin-left: 150px;
+}
+.easy-to-use2-template-p1{
+    float: right;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 200px;
+    padding-right: 200px;
+}
+.easy-to-use2-template-p2{
+   float: right;
+   padding-top: 20px;
+   padding-right: 160px;
+   font-size: 18px;
+   font-weight: bold;
+}
+.btn3{
+    float: right;
+    margin-right: 420px;
+    border-color: transparent;
+    border-radius: 10px;
+    margin-top: 50px;
+    color: black;
+    background: gold;
+    padding-left: 40px;
+    padding-top:  15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+.customer-feedbacks{
+    display: block;
+    margin-top: 200px;
+   
+}
+.customer-feedbacks-p1{
+    margin-top: 100px;
+    font-family: sans-serif;
+    margin-left: 550px;
+    font-size: 50px;
+    display: inline-block;
+    font-weight: bold;
+    background: linear-gradient(to right, #111111 46%, #1bac88 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.customer-feedbacks-p2{
+    margin-top: 30px;
+    margin-left: 500px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+
+.customer-feedbacks-cards{
+    display: flex;
+    width: 90%;
+    margin-left: 140px;
+    position: relative;
+    
+}
+.customer-feedbacks-card1{
+    
+    position: relative;
+    background: white;
+    padding-left: 10px;
+    cursor: crosshair;
+    margin: 40px 40px 40px 40px;
+    width: 450px;
+    height: 300px;
+    border-radius: 16px;
+    border-style: hidden;
+}
+.customer-feedbacks-cards-img{
+    float: left;
+    margin-top: 20px;
+}
+
+.customer-feedbacks-cards-name-p1{
+    
+    font-size: 30px;
+    margin-top: 100px;
+    font-weight: bold;
+    
+}
+.customer-feedbacks-cards-name-des-p2{
+  
+   
+    font-weight: lighter;
+    font-style: italic;
+}    
+.customer-feedbacks-cards-feedback-p3{
+   
+    font-size: 23px;
+}
+
+
+.footer{
+    background-color: #1a1b2c;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+
+.footer1{
+    margin-top: 80px;
+    color: white;
+    display: inline-flex;
+    margin-left: 200px;
+    margin-right: 40px;
+}
+
+.banky-brand{
+    color: white;
+    float: left;
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 31px;
+    font-weight: bold;
+}
+.secd-sec{
+    float: left;
+    font-weight: bold;
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 200px;
+   
+}
+.company{
+    font-weight: bold;
+    font-size: 20px;
+}
+.company1{
+    font-weight: bold;
+    color: #666771;
+    margin-top: 10px;
+    margin-bottom: 20px;
+   
+    
+}
+.company2{
+    color:#666771; 
+
+    margin-left: 40px;
+    padding-top: 15px;
+    font-size: 17px;
+    
+}
+
